@@ -1,0 +1,177 @@
+.main{
+    max-width: 100%;
+   
+    
+   
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rgb(236, 128, 26); */
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+.header-right{
+    padding: 0 4rem;
+}
+.home{
+    padding-left: 1rem;
+    text-decoration: none;
+    color: #3A464B;
+}
+.home:hover{
+    color:red;
+}
+.logo{
+    /* color: blueviolet;
+   
+    font-size: 1.5rem;
+    font-weight: 600; */
+    font-family: "Titillium Web", sans-serif;
+    font-size: 1.5rem ;
+    padding-top: 0rem ;
+    margin-right: 2rem;
+    color: #3A464B;
+    margin-left: 3rem;
+    font-weight: 700;
+}
+.hero{
+    background-color: #3A464B;
+    height: 14rem;
+    box-shadow: inset 0 8px 8px -8px rgba(0, 0, 0, 0.3), inset 0 -8px 8px -8px rgba(0, 0, 0, 0.3);
+}
+.title{
+padding-top: 3rem;
+text-align: center;
+}
+.hero-con{
+    /* margin-bottom: 2rem; */
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+    font-weight: 700 !important;
+    text-align: center;
+    font-size: 3.5rem;
+    padding-bottom: 0.5rem;
+    color: aliceblue;
+}
+.hero-sub{
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 300 !important;
+    margin-bottom: 0px;
+}
+.small-box{
+    display: flex;
+}
+
+.feed{
+    /* background-color: aqua; */
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.left-comp{
+    padding-top: 1rem;
+    /* padding-left: 1rem; */
+    margin-left: 5rem;
+    background-color: #3A464B;
+    width: 60%;
+    box-shadow:         3px 3px 5px 6px #ccc; 
+    border-radius: 3px;
+    margin-bottom: 2rem;
+}
+.global{
+    margin-left: 5rem;
+  
+    border-bottom: 2px solid rgb(221, 226, 221);
+    color:rgb(39, 37, 37);
+    display: inline-block;
+    margin-top: 2rem;
+}
+
+.avatar{
+    width:2.2rem;
+    height:2.2rem;
+    border-radius: 50%;
+
+}
+hr{
+    width: 100%;
+    color: rgb(18, 18, 19);
+  
+}
+.small-box{
+    display: flex;
+    margin-left: 1rem;
+  
+}
+.head-name{
+    margin-left: 2rem;
+    display: block;
+    font-weight: 500;
+    color:white;
+    margin-top: .4rem;
+}
+.date{
+    margin-left: 5.2rem;
+    color: #bbb;
+    font-size: 0.8rem;
+    display: block;
+   
+    
+}
+.art-topic{
+    margin-left: 1rem;
+    margin-top: 1.6rem;
+}
+.head-topic{
+    font-weight: 600 ;
+    font-size: 1.5rem ;
+    margin-bottom: 5px;
+    display: inline-block;
+    
+    
+    
+}
+.sub-head{
+    font-weight: 300;
+ 
+    color: #999;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    line-height: 1.3rem;
+}
+.read{
+    max-width: 30%;
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: #bbb;
+    padding-bottom: 2rem;
+}
+.pop{
+    margin-right: 10rem;
+    /* border:1px solid black; */
+    width: 16rem;
+    margin-left: 8rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 3px;
+}
+.tags{
+    margin-bottom: 1rem;
+    color: #3A464B;
+    padding-top: .5rem;
+    margin-right: 2rem;
+}
+.small-tags{
+    background-color: #3A464B;
+    display: inline-block;
+    border-radius: 50%;
+   padding: .4rem .4rem;
+   font-size: .8rem;
+   color: #bbb;
+   margin-left: .3rem;
+   margin-right: .3rem;
+   margin-bottom: .2rem;
+}
