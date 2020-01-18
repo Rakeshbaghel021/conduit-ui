@@ -17,7 +17,8 @@ export default function Home(){
             }
             <h1 className="global">Global feed</h1>
             {
-                localStorage.token ? (<h1 className="global">Your feed</h1>) : null
+                localStorage.token ? (<h1 className="global">Your feed</h1>
+                ) : null
             }
             <div className="feed">
                 <Feed />

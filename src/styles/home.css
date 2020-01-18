@@ -36,6 +36,7 @@
     color: #3A464B;
     margin-left: 3rem;
     font-weight: 700;
+    cursor: pointer;
 }
 .hero{
     background-color: #3A464B;
@@ -77,7 +78,7 @@ text-align: center;
     /* padding-left: 1rem; */
     margin-left: 5rem;
     background-color: #3A464B;
-    width: 60%;
+    width: 100%;
     box-shadow:         3px 3px 5px 6px #ccc; 
     border-radius: 3px;
     margin-bottom: 2rem;
@@ -85,10 +86,11 @@ text-align: center;
 .global{
     margin-left: 5rem;
   
-    border-bottom: 2px solid rgb(221, 226, 221);
+    border-bottom: 2px solid rgb(62, 63, 62);
     color:rgb(39, 37, 37);
     display: inline-block;
     margin-top: 2rem;
+    cursor: pointer;
 }
 
 .avatar{
@@ -125,6 +127,7 @@ hr{
 .art-topic{
     margin-left: 1rem;
     margin-top: 1.6rem;
+    margin-right: 18rem;
 }
 .head-topic{
     font-weight: 600 ;
@@ -152,6 +155,7 @@ hr{
 }
 .pop{
     margin-right: 10rem;
+    padding: .5rem .5rem;
     /* border:1px solid black; */
     width: 16rem;
     margin-left: 8rem;
@@ -167,7 +171,7 @@ hr{
 .small-tags{
     background-color: #3A464B;
     display: inline-block;
-    border-radius: 50%;
+    border-radius: 10rem;
    padding: .4rem .4rem;
    font-size: .8rem;
    color: #bbb;

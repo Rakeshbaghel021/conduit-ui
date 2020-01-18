@@ -1,14 +1,18 @@
 .article-body{
     text-align: center;
+    margin-bottom: 3rem;
 }
 .main-article{
     margin-top: 5rem;
-    background-color: rgb(212, 235, 222);
+    background-color: #3A464B;
     width: 60%;
     margin-left: 16rem;
 }
+p{
+    color: white;
+}
 .para{
-    color:black;
+    color:white;
     margin-bottom: 1rem;
     padding-top: 1rem;
 }
@@ -38,10 +42,10 @@
     margin-top: 28px;
   width: 130px;
   height: 32px;
-  background: #16a085;
+  background:rgb(158, 209, 231);
   border: none;
   border-radius: 2px;
-  color: #FFF;
+  color:#3A464B;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   text-transform: uppercase;

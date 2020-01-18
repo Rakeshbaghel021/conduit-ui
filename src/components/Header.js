@@ -10,7 +10,7 @@ function Header() {
             localStorage.token ? (
                 <div className="header">
                 <div className="logo-header">
-                <h1 className="logo">Conduit</h1>
+                <Link to="/" className="logo">Conduit</Link>
 
                 </div>
                     <div className="header-right">
@@ -23,7 +23,7 @@ function Header() {
             ) : (
                 <div className="header">
                 <div className="logo-header">
-                <h1 className="logo">Conduit</h1>
+                <Link to="/" className="logo">Conduit></Link>
 
                 </div>
                 <div className="header-right">

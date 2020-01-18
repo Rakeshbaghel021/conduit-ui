@@ -14,6 +14,7 @@ import "./styles/login.css";
 import "./styles/home.css";
 import "./styles/style.css";
 import "./styles/register.css";
+import "./styles/profile.css";
 
 
 
@@ -42,7 +43,7 @@ class App extends Component {
             <Login changeUser={this.changeUser}/>
           </Route>
           <Route path="/">
-            <Home/>
+            <Home/> 
           </Route>
       </Switch>
     );
